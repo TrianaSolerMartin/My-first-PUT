@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body>
+    <form id="bookingForm">
+        <!-- Guest's Name -->
+        <label for="name">Guest's Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <!-- Room Number -->
+        <label for="room">Room Number:</label>
+        <input type="text" id="room" name="room" required>
+    
+        <!-- Breakfast Included -->
+        <label for="breakfast">Is Breakfast Included?</label>
+        <input type="checkbox" id="breakfast" name="breakfast">
+    
+        <!-- Submit Button -->
+        <button type="button" onclick="submitForm()">Book</button>
+    </form>
     
 <script src="/src/services.js"></script>
 </body>

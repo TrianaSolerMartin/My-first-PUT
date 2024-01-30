@@ -1,0 +1,24 @@
+{
+    "guests": [
+        {
+            "name": "Maria Garcia",
+            "room": 101,
+            "breakfast_included": true
+        },
+        {
+            "name": "Juan Rodriguez",
+            "room": 205,
+            "breakfast_included": false
+        },
+        {
+            "name": "Ana Lopez",
+            "room": 309,
+            "breakfast_included": true
+        },
+        {
+            "name": "Carlos Martinez",
+            "room": 150,
+            "breakfast_included": false
+        }
+    ]
+}
